@@ -3,7 +3,7 @@
 //console.log(data);
 //console.log(typeof data);
 
- const request = require('request');
+const request = require('request');
 
 const fetchBreedDescription = function(breedName, callback) {
   const domain = "https://api.thecatapi.com/v1/breeds/search?q=" + breedName;
